@@ -46,7 +46,7 @@ const displaySongs = songs => {
 };
 
 const getLyric = (artist, title) => {
-    const url = `https://api.lyrics.ovh/v15/${artist}/${title}`
+    const url = `https://api.lyrics.ovh/v1/${artist}/${title}`
         // console.log(url);
         // try {
         //     fetch(url)
