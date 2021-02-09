@@ -66,7 +66,7 @@ const getLyric = (artist, title) => {
 }
 
 const displayLyric = lyrics => {
-    console.log(lyrics);
+    // console.log(lyrics);
     const songLyric = document.getElementById("song-lyric");
     songLyric.innerText = lyrics;
 }
